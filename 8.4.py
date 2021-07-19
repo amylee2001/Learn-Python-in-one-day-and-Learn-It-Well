@@ -1,8 +1,5 @@
-print("\n\nBuffer Size Example")
-print("---------------------")
-
-inputFile = open ('myfile.txt', 'r')
-outputFile = open ('myoutputfile.txt', 'w')
+inputFile = open ('myimage.jpg', 'rb')
+outputFile = open ('myoutputimage.jpg', 'wb')
 
 msg = inputFile.read(10)
 
